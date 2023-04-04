@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-import ProductCard from "./ProductCard";
 import axios from "axios";
 import { Link } from "react-router-dom";
+import CardUser from "./CardUser";
 
 const CardList = () => {
     const [users, setUsers] = useState([]);
@@ -18,7 +18,7 @@ const CardList = () => {
                 return (
                     <div key={user.id}>
                         <Link to={`/item/${user.id}`}>
-                            <ProductCard data={user} />
+                            <CardUser data={user} />
                         </Link>
                     </div>
                 );

@@ -8,16 +8,16 @@ const Navbar = () => {
     <div className='flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4'>
         <h1 className='w-full text-3xl font-bold text-[#4B0082] '>StyleStride</h1>
             <div className='flex text-[#4B0082] '>
-                <Link className="Link block  mt-4 lg:inline-block lg:mt-0 hover:text-gray-400 mr-4" to="/">
+                <Link className="Link block p-4" to="/">
                         Inicio
                         </Link>
-                        <Link className="Link block mt-4 lg:inline-block lg:mt-0 hover:text-gray-400 mr-4" to="/productos" >
+                        <Link className="Link block p-4" to="/productos" >
                         Productos
                     </Link>
-                    <Link className="Link block mt-4 lg:inline-block lg:mt-0 hover:text-gray-400 mr-4" to="/sobreNosotros" >
+                    <Link className="Link block p-4" to="/sobreNosotros" >
                         Sobre Nosotros
                     </Link>
-                    <Link className="Link block mt-4 lg:inline-block lg:mt-0 hover:text-gray-400 mr-4" to="/contacto" >
+                    <Link className="Link block p-4" to="/contacto" >
                         Contacto
                     </Link>
                 <Shop className='p-4 pl-20 pr-7'/>
